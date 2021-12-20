@@ -1,5 +1,5 @@
 body {
-    background-color: #ddd;
+    background-color: rgb(255, 255, 255);
 }
 
 .tamaño {
@@ -11,3 +11,41 @@ body {
     font-size: 2rem;
     font-family: 'Comforter Brush', cursive;
 }
+
+
+.height {
+    height: 5vh;
+}
+
+.space {
+    margin-top: 2rem;
+}
+
+.spaceLeft {
+    margin-left: 2rem;
+}
+
+.relativeMain {
+    position: relative;
+}
+
+.titleCenter {
+    top: 20vw;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 9;
+}
+
+.titleStyle {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1rem) hue-rotate(240deg) opacity(0.75) invert(1);
+    color: rgb(255, 255, 255);
+    font-size: 4vw;
+}
+/* .titleStyle {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(1rem) hue-rotate(240deg) opacity(0.75) invert(1);
+    color: rgb(0, 0, 0);
+    font-size: 5vw;
+} */
