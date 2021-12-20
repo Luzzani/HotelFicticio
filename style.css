@@ -42,10 +42,17 @@ body {
     backdrop-filter: blur(1rem) hue-rotate(240deg) opacity(0.75) invert(1);
     color: rgb(255, 255, 255);
     font-size: 4vw;
+    transition: color 2s linear;
 }
-/* .titleStyle {
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(1rem) hue-rotate(240deg) opacity(0.75) invert(1);
-    color: rgb(0, 0, 0);
-    font-size: 5vw;
-} */
+
+.titleStyle:hover {
+    color:rgb(238, 127, 127);
+}
+
+.transform {
+    transition: transform 1s ease-in-out;
+}
+
+.transform:hover {
+    transform: scale(1, 1.5);
+}
