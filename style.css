@@ -1,8 +1,5 @@
-body {
-    background-color: rgb(255, 255, 255);
-}
 
-.tamaño {
+.tamano {
     width: 100%;
 }
 
@@ -13,21 +10,12 @@ body {
 }
 
 
-.height {
-    height: 5vh;
-}
+
 
 .space {
     margin-top: 2rem;
 }
 
-.spaceLeft {
-    margin-left: 2rem;
-}
-
-.relativeMain {
-    position: relative;
-}
 
 .titleCenter {
     top: 20vw;
@@ -50,9 +38,9 @@ body {
 }
 
 .transform {
-    transition: transform 1s ease-in-out;
+    transition: transform .2s ease-in-out;
 }
 
 .transform:hover {
-    transform: scale(1, 1.5);
+    transform: scale(1, 1.1);
 }
