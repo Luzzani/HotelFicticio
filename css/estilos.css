@@ -1,0 +1,31 @@
+.tamano {
+  width: 100%; }
+
+.logoNav {
+  color: #0c1f10;
+  font-size: 2rem;
+  font-family: 'Comforter Brush', cursive; }
+
+.space {
+  margin-top: 2rem; }
+
+.titleCenter {
+  top: 20vw;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 9; }
+
+.titleStyle {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(1rem) hue-rotate(240deg) opacity(0.75) invert(1);
+  color: white;
+  font-size: 4vw;
+  transition: color 2s linear; }
+  .titleStyle:hover {
+    color: #ee7f7f; }
+
+.transform {
+  transition: transform .2s ease-in-out; }
+  .transform:hover {
+    transform: scale(1, 1.1); }
