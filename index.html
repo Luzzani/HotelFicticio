@@ -2,28 +2,29 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
+    <title>Hotel Island Resort</title>
+    <meta name="description" content="Imagínese una isla apartada con playas de arena blanca brillante, una laguna inundada de azules profundos y aguamarinas, y altísimos cocoteros meciéndose con la brisa. Hotel Island Resort.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap" rel="stylesheet">
+    
     <!-- Bootstrap CSS -->
-
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Hotel Island Resort</title>
   </head>
   <body>
             <header class="sticky-top">
               <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <!-- <div class="spaceLeft">
-                  <button type="button" class="btn btn-outline-dark">dark mode</button>
-                </div> -->
-                <div class="container-sm">
+                <div class="container-fluid">
                   <a href="index.html" class="navbar-brand"><span class="logoNav">H.I.</span></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                          <ul class="navbar-nav tamano nav justify-content-evenly">
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                          <ul class="navbar-nav widthNav nav justify-content-evenly">
                             <li class="nav-item">
                               <a class="nav-link active" href="index.html">Inicio</a>
                             </li>
@@ -40,6 +41,10 @@
                                     <a class="nav-link" href="#">Nosotros</a>
                             </li>
                           </ul>
+                          <form class="d-flex formNav">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-dark buttonSearch" type="submit">Search</button>
+                          </form>
                         </div>
                 </div>
               </nav>
@@ -48,71 +53,73 @@
             <!-- main -->
 
             <main>
-              <div class="titleCenter">
-                <h1 class="text-center titleStyle">Hotel Island Resort</h1>
-              </div>
-              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="assets/Box Images18_0.jpg" class="d-block w-100" alt="Recepcion box">
+                <div class="titleCenter">
+                  <h1 class="text-center titleStyle">Hotel Island Resort</h1>
+                </div>
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/Box Images18_0.jpg" class="d-block w-100" alt="Recepcion box">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/reception_1600x900.jpg" class="d-block w-100" alt="Recepcion">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/2_IslaResort.jpg" class="d-block w-100" alt="Isla Resort">
+                    </div>
                   </div>
-                  <div class="carousel-item">
-                    <img src="assets/reception_1600x900.jpg" class="d-block w-100" alt="Recepcion">
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+          <section>
+                  <div class="container-fluid d-flex justify-content-center">
+                    <h2 class="space">Algunas actividades que podes hacer con nosotros</h2>
                   </div>
-                  <div class="carousel-item">
-                    <img src="assets/2_IslaResort.jpg" class="d-block w-100" alt="Isla Resort">
+                  <div class="container">
+                    <h3 class="space">Deportes Acuaticos</h3>
+                    <div class="row gx-5 row-cols-1 row-cols-lg-2 g-2">
+                      <div class="col">
+                        <img src="assets/esportes-aquaticos-nas-ilhas-maldivas-1024x546.png" class="img-thumbnail" alt="Deporte acuatico">
+                      </div>
+                      <div class="d-flex align-self-start col">
+                        <p class="textIndex">Amplia variedad de deportes acuáticos como Seabob, el scooter submarino más rápido del mundo programado a través de una computadora a bordo que funciona a diferentes profundidades y velocidades, lo que le permite saltar sobre las olas o sumergirse y ver animales acuáticos, el Jet Blade que te hace volar alto bajo el mar, y Kitesurf, que mezcla surf, wakesurf, wakeboard y volar con estilo y sin complicaciones.</p>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              <div class="container-fluid d-flex justify-content-center">
-                <h2 class="space">Algunas actividades que podes hacer con nosotros</h2>
-              </div>
-            <div class="container">
-                <h3 class="space">Deportes Acuaticos</h3>
-                <div class="row gx-5 row-cols-1 row-cols-lg-2 g-2">
-                  <div class="col">
-                    <img src="assets/esportes-aquaticos-nas-ilhas-maldivas-1024x546.png" class="img-thumbnail" alt="...">
+                  <div class="container">
+                    <h3 class="text-lg-end space">Buceo y esnórquel</h3>
+                    <div class="row gx-5 row-cols-1 row-cols-lg-2 d-flex flex-wrap g-2">
+                      <div class="col order-lg-1">
+                        <img src="assets/mergulho-e-snorkel-nas-ilhas-maldivas-1024x546.png" class="img-thumbnail" alt="Buceo y esnórquel">
+                      </div>
+                      <div class="d-flex align-self-center col">
+                        <p class="textIndex">El mar cristalino de las Islas Maldivas es uno de los más adecuados del mundo para bucear y hacer snorkel. El snorkel es perfecto para la familia, con niños o adolescentes, mientras que el buceo se recomienda para aquellos con más práctica. Cualquiera que elija, la experiencia es inolvidable y vale la pena.</p>
+                      </div>
+                    </div>
                   </div>
-                  <div class="d-flex align-self-center col">
-                    <p>Amplia variedad de deportes acuáticos como Seabob, el scooter submarino más rápido del mundo programado a través de una computadora a bordo que funciona a diferentes profundidades y velocidades, lo que le permite saltar sobre las olas o sumergirse y ver animales acuáticos, el Jet Blade que te hace volar alto bajo el mar, y Kitesurf, que mezcla surf, wakesurf, wakeboard y volar con estilo y sin complicaciones.</p>
+                  <div class="container">
+                    <h3 class="space">Disfruta la puesta de sol</h3>
+                    <div class="row gx-5 row-cols-1 row-cols-lg-2 g-2">
+                      <div class="col">
+                        <img src="assets/por-do-sol-das-ilhas-maldivas-1024x546.png" class="img-thumbnail" alt="Puesta del sol">
+                      </div>
+                      <div class="d-flex align-self-end col">
+                        <p class="textIndex">La puesta de sol de las Islas Maldivas es un espectáculo. Describir la puesta de sol de Maldivas es prácticamente imposible. En este paraíso, el sol hace un espectáculo todos los días al atardecer. Si tienes ganas de levantarte temprano, también vale la pena ver el amanecer, la combinación de los rayos del sol con la transparencia del agua del mar, brindando un brillo único e inolvidable. </p>
+                      </div>
+                    </div>
                   </div>
-                </div>
-            </div>
-            <div class="container">
-              <h3 class="text-lg-end space">Buceo y esnórquel</h3>
-              <div class="row gx-5 row-cols-1 row-cols-lg-2 d-flex flex-wrap g-2">
-                <div class="col order-lg-1">
-                  <img src="assets/mergulho-e-snorkel-nas-ilhas-maldivas-1024x546.png" class="img-thumbnail" alt="...">
-                </div>
-                  <div class="d-flex align-self-center col">
-                  <p>El mar cristalino de las Islas Maldivas es uno de los más adecuados del mundo para bucear y hacer snorkel. El snorkel es perfecto para la familia, con niños o adolescentes, mientras que el buceo se recomienda para aquellos con más práctica. Cualquiera que elija, la experiencia es inolvidable y vale la pena.</p>
-                </div>
-              </div>
-            </div>
-            <div class="container">
-              <h3 class="space">Disfruta la puesta de sol</h3>
-              <div class="row gx-5 row-cols-1 row-cols-lg-2 g-2">
-                <div class="col">
-                  <img src="assets/por-do-sol-das-ilhas-maldivas-1024x546.png" class="img-thumbnail" alt="...">
-                </div>
-                <div class="d-flex align-self-center col">
-                  <p>La puesta de sol de las Islas Maldivas es un espectáculo. Describir la puesta de sol de Maldivas es prácticamente imposible. En este paraíso, el sol hace un espectáculo todos los días al atardecer. Si tienes ganas de levantarte temprano, también vale la pena ver el amanecer, la combinación de los rayos del sol con la transparencia del agua del mar, brindando un brillo único e inolvidable. </p>
-                </div>
-              </div>
-            </div>
+          </section>
           </main>
-
+          
           <!-- footer -->
-        
-            <footer>
+          
+          <footer>
               <div class="container-fluid space">
                 <div class="row row-cols-1 row-cols-sm-3 text-center">
                   <div class="col ">

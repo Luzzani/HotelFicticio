@@ -1,18 +1,32 @@
-.tamano {
-  width: 100%; }
-
 .logoNav {
-  color: #0c1f10;
   font-size: 2rem;
   font-family: 'Comforter Brush', cursive; }
 
-.space {
-  margin-top: 2rem; }
+.widthNav {
+  width: 30%;
+  font-size: 1.2rem; }
+
+.formNav {
+  width: 20vw; }
+  .formNav .buttonSearch {
+    font-size: 1.2rem; }
+
+@media screen and (max-width: 991px) {
+  .formNav {
+    width: 100%; } }
+
+@media screen and (max-width: 1604px) {
+  .widthNav {
+    width: 40%; } }
+
+@media screen and (max-width: 1226px) {
+  .widthNav {
+    width: 50%; } }
 
 .titleCenter {
-  top: 20vw;
   width: 100vw;
   height: 100vh;
+  top: 50%;
   position: absolute;
   z-index: 9; }
 
@@ -25,7 +39,30 @@
   .titleStyle:hover {
     color: #ee7f7f; }
 
+.titleRooms {
+  color: #f00;
+  background-color: #000; }
+
+@media screen and (max-width: 862px) {
+  .titleCenter {
+    top: 25%; } }
+
+@media screen and (max-width: 385px) {
+  .titleCenter {
+    top: 15%; } }
+
+.space {
+  margin-top: 2rem; }
+
 .transform {
   transition: transform .2s ease-in-out; }
   .transform:hover {
     transform: scale(1, 1.1); }
+
+.textIndex {
+  font-size: 1.2rem;
+  font-family: 'rubik', Times, serif; }
+
+@media screen and (max-width: 1199px) {
+  .textIndex {
+    font-size: 1rem; } }

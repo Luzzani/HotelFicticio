@@ -1,0 +1,48 @@
+@import "variables";
+@import "mixin";
+@import "mapColors";
+
+
+// Estilos del index 
+
+.titleCenter {
+    @include square;
+    top: 50%;
+    position: absolute;
+    z-index: 9;
+}
+
+.titleStyle {
+    background-color: $backgroundOpacity;
+    backdrop-filter: blur(1rem) hue-rotate(240deg) opacity(0.75) invert(1);
+    color: rgb(255, 255, 255);
+    font-size: 4vw;
+    transition: color 2s linear;
+    &:hover {
+    color:#ee7f7f;
+    }
+}
+
+// Estilos del html Habitaciones.
+
+.titleRooms {
+    color: map-get($map: $colors, $key: colorRed);
+    background-color: map-get($map: $colors , $key: colorBlack );
+}
+
+// Estilos index mobile
+
+@media screen and (max-width: 862px) {
+    .titleCenter {
+        top: 25%;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .titleCenter {
+        top: 15%;
+    }
+}
+
+
+
