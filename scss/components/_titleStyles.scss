@@ -3,44 +3,56 @@
 @import "mapColors";
 
 
-// Estilos del index 
-
-.titleCenter {
-    @include square;
-    top: 50%;
-    position: absolute;
-    z-index: 9;
-}
-
 .titleStyle {
     background-color: $backgroundOpacity;
     backdrop-filter: blur(1rem) hue-rotate(240deg) opacity(0.75) invert(1);
     color: rgb(255, 255, 255);
     font-size: 4vw;
-    transition: color 2s linear;
-    &:hover {
-    color:#ee7f7f;
+}
+
+.heroImg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/hotele-reception.jpg");
+    @include bgImg;
+}
+
+.heroImgG {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/heroIMG-galery.jpg");
+    @include bgImg;
+}
+
+.heroImgR {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/heroimgAloja.jpg");
+    @include bgImg;
+}
+
+.heroImgIndex {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/indexim.jpg");
+    @include bgImg;
+}
+
+.heroText {
+    p {
+        font-size: 2vw ;
     }
-}
-
-// Estilos del html Habitaciones.
-
-.titleRooms {
-    color: map-get($map: $colors, $key: colorRed);
-    background-color: map-get($map: $colors , $key: colorBlack );
-}
-
-// Estilos index mobile
-
-@media screen and (max-width: 862px) {
-    .titleCenter {
-        top: 25%;
+    h1 {
+    font-size: 5vw;
     }
-}
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
 
-@media screen and (max-width: 385px) {
-    .titleCenter {
-        top: 15%;
+@media screen and (max-width: 600px) {
+    .heroText {
+        p {
+            font-size: 3vw;
+        }
+        h1 {
+            font-size: 10vw;
+        }
     }
 }
 

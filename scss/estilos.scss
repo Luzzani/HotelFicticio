@@ -3,9 +3,6 @@
 @import "components/titleStyles";
 @import "components/mapColors";
 
-
-// generar un mixin con tamaño de letra, tipo de fuente y color, para los párrafos. 
-
 .space {
     margin-top: 2rem;
 }
@@ -26,4 +23,15 @@
     .textIndex {
         font-size: 1rem;
     }
+    .zoomImg {
+        transition: all 3s;
+        &:hover {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.bgGradient {
+    background: linear-gradient(cyan, white);
 }

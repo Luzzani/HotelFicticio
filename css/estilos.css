@@ -23,33 +23,57 @@
   .widthNav {
     width: 50%; } }
 
-.titleCenter {
-  width: 100vw;
-  height: 100vh;
-  top: 50%;
-  position: absolute;
-  z-index: 9; }
-
 .titleStyle {
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(1rem) hue-rotate(240deg) opacity(0.75) invert(1);
   color: white;
-  font-size: 4vw;
-  transition: color 2s linear; }
-  .titleStyle:hover {
-    color: #ee7f7f; }
+  font-size: 4vw; }
 
-.titleRooms {
-  color: #f00;
-  background-color: #000; }
+.heroImg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/hotele-reception.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
 
-@media screen and (max-width: 862px) {
-  .titleCenter {
-    top: 25%; } }
+.heroImgG {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/heroIMG-galery.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
 
-@media screen and (max-width: 385px) {
-  .titleCenter {
-    top: 15%; } }
+.heroImgR {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/heroimgAloja.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
+
+.heroImgIndex {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/indexim.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
+
+.heroText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; }
+  .heroText p {
+    font-size: 2vw; }
+  .heroText h1 {
+    font-size: 5vw; }
+
+@media screen and (max-width: 600px) {
+  .heroText p {
+    font-size: 3vw; }
+  .heroText h1 {
+    font-size: 10vw; } }
 
 .space {
   margin-top: 2rem; }
@@ -65,4 +89,12 @@
 
 @media screen and (max-width: 1199px) {
   .textIndex {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  .zoomImg {
+    transition: all 3s; }
+    .zoomImg:hover {
+      width: 100%;
+      height: auto; } }
+
+.bgGradient {
+  background: linear-gradient(cyan, white); }
