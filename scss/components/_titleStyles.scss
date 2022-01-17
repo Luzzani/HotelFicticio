@@ -3,13 +3,6 @@
 @import "mapColors";
 
 
-.titleStyle {
-    background-color: $backgroundOpacity;
-    backdrop-filter: blur(1rem) hue-rotate(240deg) opacity(0.75) invert(1);
-    color: rgb(255, 255, 255);
-    font-size: 4vw;
-}
-
 .heroImg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/hotele-reception.jpg");
     @include bgImg;

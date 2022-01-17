@@ -2,17 +2,21 @@
 @import "components/variables";
 @import "components/titleStyles";
 @import "components/mapColors";
+@import "components/form";
+@import "components/footer";
+
 
 .space {
     margin-top: 2rem;
 }
-
+// rooms
 .transform {
     transition: transform .2s ease-in-out;
     &:hover {
     transform: scale(1, 1.1);
     }
 }
+// index
 
 .textIndex {
     font-size: $fontNav;
@@ -33,5 +37,5 @@
 }
 
 .bgGradient {
-    background: linear-gradient(cyan, white);
+    background-image: linear-gradient(rgba(0, 251, 251, .2), rgb(255, 255, 255));
 }

@@ -23,12 +23,6 @@
   .widthNav {
     width: 50%; } }
 
-.titleStyle {
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(1rem) hue-rotate(240deg) opacity(0.75) invert(1);
-  color: white;
-  font-size: 4vw; }
-
 .heroImg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/hotele-reception.jpg");
   background-position: center;
@@ -75,6 +69,30 @@
   .heroText h1 {
     font-size: 10vw; } }
 
+.contactForm {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: .5vh; }
+  .contactForm input {
+    border: none;
+    border-bottom: thin solid rgba(0, 0, 0, 0.3); }
+
+.bgForm {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5) 3%, rgba(0, 255, 255, 0.2)); }
+  .bgForm a {
+    color: #351f1f; }
+
+.divFooter {
+  height: 80%;
+  width: .3%;
+  background-color: #a1a1a1; }
+
+.redesHover:hover {
+  color: #1100ff; }
+
 .space {
   margin-top: 2rem; }
 
@@ -97,4 +115,4 @@
       height: auto; } }
 
 .bgGradient {
-  background: linear-gradient(cyan, white); }
+  background-image: linear-gradient(rgba(0, 251, 251, 0.2), white); }
